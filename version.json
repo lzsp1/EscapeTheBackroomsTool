@@ -1,5 +1,5 @@
 {
-  "latest_version": "3.2",
+  "latest_version": "3.3-test",
   "download_url": "https://github.com/lzsp1/EscapeTheBackroomsTool/releases/download/v3.2/default.exe",
-  "release_notes": "新增自动更新检测功能；"
+  "release_notes": "修复已知问题"
 }
