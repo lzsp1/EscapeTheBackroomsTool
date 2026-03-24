@@ -1,5 +1,5 @@
 {
-  "latest_version": "3.6",
-  "download_url": "https://github.com/lzsp1/EscapeTheBackroomsTool/releases/download/v3.6/EscapeTheBackroomsTool.v3.6.exe",
-  "release_notes": "对ui界面优化、代码重构"
+  "latest_version": "3.7",
+  "download_url": "https://github.com/lzsp1/EscapeTheBackroomsTool/releases/download/v3.7/EscapeTheBackroomsTool.v3.7.exe",
+  "release_notes": "修复已知问题、关于界面新增logo投票"
 }
