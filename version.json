@@ -1,5 +1,5 @@
 {
-  "latest_version": "3.7",
+  "latest_version": "3.8",
   "download_url": "https://github.com/lzsp1/EscapeTheBackroomsTool/releases/download/v3.8/EscapeTheBackroomsTool.v3.8.exe",
   "release_notes": "[强烈推荐更新]更改启动默认页面；日志自动显示最新消息；修改按钮视觉反馈；增加打开配置目录；日志系统增强；修改字体缩放逻辑；可以清理旧版软件的配置文件；改进检查更新"
 }
