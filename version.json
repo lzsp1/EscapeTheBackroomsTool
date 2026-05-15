@@ -1,5 +1,5 @@
 {
-  "latest_version": "3.8.1",
-  "download_url": "https://github.com/lzsp1/EscapeTheBackroomsTool/releases/download/v3.8.1/EscapeTheBackroomsTool.v3.8.1.exe",
-  "release_notes": "增加卸载功能；增加版本号位数；修复更新内容显示问题；优化提示"
+  "latest_version": "3.9.1",
+  "download_url": "https://github.com/lzsp1/EscapeTheBackroomsTool/releases/download/3.9.1/ETBTool.v3.9.1.exe",
+  "release_notes": "强烈推荐更新！重画ui；新增mod管理功能；修复已知问题；mod下载功能尽情期待"
 }
