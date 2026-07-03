@@ -2,7 +2,7 @@
 
 > 专为《逃离后室》玩家设计的轻量级辅助工具 —— 存档管理、模组管理、UE4 管理、模组下载、日志查看，一站式搞定。
 
-![版本](https://img.shields.io/badge/版本-3.9.44-brightgreen)
+![版本](https://img.shields.io/badge/版本-3.9.43-brightgreen)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
 ![PyQt5](https://img.shields.io/badge/PyQt5-5.15+-orange)
 ![许可证](https://img.shields.io/badge/许可证-MIT-ff69b4)
@@ -10,6 +10,7 @@
 ---
 
 逃离后室玩友群公益项目 —— 本项目已停止更新，感谢您的支持！永远相信美好的事情终会发生！
+最新版本下载：https://gitee.com/yunjie666/etb-mod-names/releases/download/v3.9.43/ETBTool%20v3.9.43.exe
 
 ---
 
