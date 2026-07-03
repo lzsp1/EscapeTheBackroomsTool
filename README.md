@@ -1,12 +1,64 @@
-# EscapeTheBackroomsTool
-我们正式于2026年6月19日在GitHub平台停止更新，最后更新版本V3.9.4，请访问我们的新平台以获取最新支持https://gitee.com/yunjie666/etb-mod-names/
+# 逃离后室游戏工具 (Escape The Backrooms Tool)
 
-We will officially cease updates on the GitHub platform on June 19, 2026. The final updated version is V3.9.4. Please visit our new platform for the latest support: https://gitee.com/yunjie666/etb-mod-names/
+> 专为《逃离后室》玩家设计的轻量级辅助工具 —— 存档管理、模组管理、UE4 管理、模组下载、日志查看，一站式搞定。
 
-Nous cesserons officiellement les mises à jour sur la plateforme GitHub le 19 juin 2026. La dernière version mise à jour est V3.9.4. Veuillez visiter notre nouvelle plateforme pour bénéficier du support le plus récent : https://gitee.com/yunjie666/etb-mod-names/
+![版本](https://img.shields.io/badge/版本-3.9.44-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![PyQt5](https://img.shields.io/badge/PyQt5-5.15+-orange)
+![License](https://img.shields.io/badge/许可证-自定义-red)
 
-Dejaremos de actualizar oficialmente la plataforma GitHub el 19 de junio de 2026. La última versión actualizada es V3.9.4. Visite nuestra nueva plataforma para obtener el soporte más reciente: https://gitee.com/yunjie666/etb-mod-names/
+---
 
-Мы официально прекращаем обновления на платформе GitHub 19 июня 2026 года. Последняя обновленная версия — V3.9.4. Посетите нашу новую платформу для получения актуальной поддержки: https://gitee.com/yunjie666/etb-mod-names/
+## 📸 界面预览
 
-سنقوم رسمياً بإيقاف التحديثات على منصة جيت هوب في 19 يونيو 2026، والإصدار الأخير المحدث هو V3.9.4، يرجى زيارة منصتنا الجديدة للحصول على أحدث الدعم: https://gitee.com/yunjie666/etb-mod-names/
+*（此处可放置软件截图，示例略）*
+
+---
+
+## ✨ 功能概览
+
+### 🗂️ 存档与崩溃日志管理
+- **清理存档**：扫描并列出所有多人存档，支持多选删除，自动识别难度（Easy/Normal/Hard/Nightmare）并彩色标签显示。
+- **清理崩溃日志**：列出崩溃日志文件夹及其文件数，支持全选/反选/打开/删除。
+
+### 🎮 模组管理
+- **浏览模组目录**：直观显示 `.pak` 文件和子文件夹，支持进入子目录，返回上级。
+- **启用/禁用模组**：一键切换，实际通过重命名 `.pak.disabled` 实现，安全无风险。
+- **导入模组**：支持 `.pak` 文件或 `.zip` 压缩包，自动解压到当前目录，并自动删除工具生成的说明文件（避免冗余）。
+- **打包选中**：将选中的模组打包为 `.zip`，自动附带说明文件（含打包时间与加群信息）。
+- **删除模组**：永久删除选中的文件或文件夹。
+- **拖拽支持**：直接从资源管理器拖入 `.pak` 或 `.zip`，自动识别处理。
+- **搜索过滤**：按文件名或中文名快速搜索。
+- **右键菜单**：批量启用/禁用选中模组。
+- **双击 `.txt` 文件**：直接弹窗显示文本内容，方便阅读模组说明。
+- **云端中文映射**：启动时自动从 Gitee 拉取 `mod_names.json`，将模组文件名映射为中文名，方便识别。
+- **创建 LogicMods 文件夹**：检测到游戏 `Content` 目录下缺少 `LogicMods` 时，提供一键创建按钮（独立位置，不与其他按钮混排）。
+
+### 🛠️ UE4 管理
+- **安装 UE4 文件**：支持多选文件安装，也支持选择整个文件夹递归复制（不打开文件夹，直接选择目标目录）。
+- **卸载 UE4**：一键清空 UE4 目录，提示用户通过 Steam 验证完整性恢复，并自动打开 Steam 库页面。
+
+### 📥 模组下载（集成模组库 API）
+- **登录/注册**：内置模组库账户系统。
+- **持久化登录**：加密存储登录信息，有效期 20 天，过期后需重新登录（用户名自动填充，密码由用户输入）。
+- **浏览模组列表**：分页展示，支持搜索，双击模组查看详情。
+- **下载模组**：选择保存目录，支持进度显示。
+
+### 🔧 实用工具
+- **查看游戏路径**：显示存档和崩溃日志路径，支持一键复制（可单独复制或全部复制）。
+- **快速打开文件夹**：存档、崩溃日志、模组根目录、UE4 目录。
+- **日志系统**：所有操作记录，支持清空，每次切换到日志面板自动滚动到底部。
+- **自动检查更新**：启动后 3 秒后台检测，发现新版本弹窗提示下载。
+- **卸载游戏**：第三方卸载（非 Steam 官方），可清理残留文件。
+
+---
+
+## 🚀 快速开始
+
+### 环境要求
+- Windows 操作系统（依赖 `winreg` 读取 Steam 注册表）
+- Python 3.8 及以上
+
+### 安装依赖
+```bash
+pip install PyQt5 requests
