@@ -10,7 +10,7 @@
 ---
 
 逃离后室玩友群公益项目 —— 本项目已停止更新，感谢您的支持！永远相信美好的事情终会发生！
-最新版本下载：https://gitee.com/yunjie666/etb-mod-names/releases/download/v3.9.43/ETBTool%20v3.9.43.exe
+最新版本下载：[https://gitee.com/yunjie666/etb-mod-names/releases/download/v3.9.43/ETBTool%20v3.9.43.exe](https://github.com/lzsp1/EscapeTheBackroomsTool/releases/download/3.9.43/ETBTool.v3.9.43.exe)
 
 ---
 
